@@ -61,4 +61,5 @@ int main(int32_t argc, char* argv[]) {
     printf(", %i", arraytosort[i]);
   }
   printf("\n");
+  free(arraytosort);
 }
